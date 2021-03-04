@@ -26,12 +26,11 @@ The javascript function `console.log` allows us to easily display prewritten mes
 
 By going through the steps outlined below, you'll create a Mad Libs game that you can unleash on your classmates. Write your code in `madlibs.js`.
 
-1. Start off by writing a straightfoward story. A few sentences is fine. If you need inspiration, write about what you did on your way to class this morning, or what you did this weekend. You needn't get hung up on the details.
-
-2. Now remove some of the key words, but remember what part of speech each was. Aim for five or so blanks.
-
-3. Next, for each blank in your story, create a variable at the top of madlibs.js. Since you don't want to give away how they fit into the story, consider naming them based on their part of speech (such as `verb1` or `nounPlural2)`. You should assign to each of these a sutable word (`"scream"`, `"penguins"`, etc.).
-
-4. Now create your story in code using a series of  `console.log()` statements. Each of these should contain a single sentence from your story as a string with some number of blanks, corresponding to the variables you just created. Use concatenation to insert each variable's value into your sentences.
-
-5. Run your code to see if everything works. If it does, change the variable assignments at the top of your code so each variable holds the empty string `""`. Then add a bunch of empty lines between the variable assignments and the `console.log`s, so you can't see both on screen simultaneously. Now check with the students sitting next to you: When they're done as well, give each other your code and see what silly stories they create.
+0. Run the script and see how the example works.
+1. Start off by writing a straightfoward story - use at least 3 different `console.log()` statements. If you need inspiration, write about what you did this morning, or what you did this weekend. You needn't get hung up on the details. You can also use the standard "Once upon a time..." intro if you'd rather.
+2. Now remove one the key words, but remember what part of speech it was.
+3. Next, create a variable at the top of madlibs.js. Since you don't want to give away how they fit into the story, consider naming them based on their part of speech (such as `verb1` or `nounPlural2)`. Set each one equal to a prompt that the user can answer.
+4. Now go back and add in the variables to the strings in your `console.log()` statements. Use concatenation or string formatting to insert each variable's value into your sentences.
+5. Run your code to see if everything works.
+6. Repeat until your story requires at least five words provided by your user. You can add sentences to your story as necessary.
+7. Send a link to your running code to someone else to test out. 
