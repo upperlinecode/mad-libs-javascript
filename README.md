@@ -13,7 +13,7 @@ This lab will give you practice with variables, console.log, and concatenation. 
 
 ## Intro
 
-We've just seen how variables can be concatendated with strings to make custom messages. In this lab, create a Mad Libs game to get more comfortable with concatenation and have some fun.
+We've just seen how variables can be concatenated with strings to make custom messages. In this lab, create a Mad Libs game to get more comfortable with concatenation and have some fun.
 
 <details>
 <summary> If you've never played Mad Libs before, here's how it generally works.</summary>
